@@ -1,33 +1,16 @@
-<!DOCTYPE html>
-<html>
-<style>
-<head>
-<link rel="stylesheet"
-href="style.css".
-
 
 body {
-  background-color: lightblue;
+
+font-family: Arial, sans-serif;
+
+color: #333;
+
+background-color: #f9f9f9;
+
+margin: 0;
+
+padding: 0;
+
+line-height: 1.6;
+
 }
-
-h1 {
-  color: white;
-  text-aligh: center;
-}
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-  </style>
-  </head>
-  <body>
-
-  <h1>This a heading</h1>
-  <p>This is a paragraph.</p>
-
-  </body>
-  </html>
-  
-  
-  
