@@ -1,25 +1,20 @@
 
-/* ===== RESET ===== */
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
     background:#0f172a;
     color:white;
 }
-
-/* ===== HEADER ===== */
 header{
     background:linear-gradient(135deg,#1d4ed8,#2563eb);
     padding:50px 20px;
     text-align:center;
 }
-
-header h1{
+ h1{
     margin:0;
     font-size:38px;
 }
 
-/* ===== NAVBAR ===== */
 nav{
     background:#020617;
     padding:15px;
@@ -37,17 +32,14 @@ nav a{
 nav a:hover{
     color:#60a5fa;
 }
-
-/* ===== MAIN CONTENT ===== */
-.container{
+container{
     max-width:1000px;
     margin:auto;
     padding:30px 20px;
     text-align:center;
 }
 
-/* ===== PROFESSIONAL IMAGE STYLE ===== */
-.hero-image{
+image{
     width:100%;
     height:450px;
     object-fit:cover;
@@ -57,35 +49,19 @@ nav a:hover{
     margin-top:20px;
 }
 
-/* ===== SKILLS CARDS ===== */
-.cards{
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-    margin-top:30px;
-}
 
-.card{
-    background:#1e293b;
-    padding:20px;
     border-radius:10px;
     flex:1;
     min-width:200px;
     transition:0.3s;
 }
 
-.card:hover{
-    transform:translateY(-5px);
-}
-
-/* ===== EMAIL STYLE ===== */
-.email{
+email{
     color:#fb923c;
     font-size:20px;
     font-weight:bold;
 }
 
-/* ===== FOOTER ===== */
 footer{
     background:#1e293b;
     text-align:center;
