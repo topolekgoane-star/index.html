@@ -39,11 +39,10 @@ container {
     text-align: center;
 }
 image {
-    width: 1000%;
-    max-height: 700px;
+    width: 100%;
+    max-height: 500px;
     object-fit: cover;
-    border-radius: 12px;
-    margin-top: 20px;
+    display: block;
 }
 p {
     font-size: 18px;
