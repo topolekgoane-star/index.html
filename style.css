@@ -1,65 +1,80 @@
+/* ======================
+   BASIC PAGE STYLE
+====================== */
 body {
     margin: 0;
-    font-family:Arial, sans-serif;
-    background-color:#0f172a;
-    colour:white;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;   /* dark background */
+    color: white;
 }
-container {
+
+/* ======================
+   HEADER
+====================== */
+header {
+    background-color: #2563eb;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* ======================
+   NAVIGATION MENU
+====================== */
+nav {
+    background-color: #020617;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #22c55e;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* ======================
+   PAGE CONTENT
+====================== */
+.container {
     max-width: 900px;
     margin: auto;
     padding: 30px;
 }
 
-h1 {
-    background-colorcolor: #2563eb;
-    text-algn:center;
-    padding:40px
-}
-
-h2 {
-    margin-bottom: 10px;
-    color: #444;
-}
-
-nav {
-    margin-bottom: 20px;
-    color:#020617;
-    text-decoration:none;
-    padding:15px;
-    text-align:center;
-    
-}
-
-nav a {
-    text-decoration: none;
-    color: #22c55e;
-    margin-right: 15px;
-    font-weight:bold;
-    
-}
-
-nav a:hover {
-    color: #60a5fa;
-    text-decoration: underline;
-}
-p {
-    margin-bottom: 15px;
-}
-
-img {
+/* ======================
+   IMAGE STYLE
+   (makes picture bigger & clean)
+====================== */
+.main-image {
     width: 100%;
-    max-width: 1000px;
-    height:auto;
-    border-radius: 12px;
-    margin-top: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
-email{
-    colour:Orange;
-    font-weight:bold;
+/* ======================
+   EMAIL TEXT
+====================== */
+.email {
+    color: orange;
+    font-weight: bold;
 }
+
+/* ======================
+   FOOTER
+====================== */
 footer {
+    background-color: #1e293b;
+    text-align: center;
+    padding: 20px;
     margin-top: 40px;
-    padding-top: 20px;
-    background-color: #777;
 }
