@@ -1,29 +1,19 @@
-browser styles {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f9;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+    margin: 0;
+    font-family:Arial, sans-serif;
+    background-color:#0f172a;
+    colour:white;
 }
-
 container {
     max-width: 900px;
     margin: auto;
-    background: #ffffff;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 h1 {
-    color: #1a73e8;
-    margin-bottom: 15px;
+    background-colorcolor: #2563eb;
+    text-algn:center;
+    padding:40px
 }
 
 h2 {
@@ -33,18 +23,23 @@ h2 {
 
 nav {
     margin-bottom: 20px;
+    color:#020617;
+    text-decoration:none;
+    padding:15px;
+    text-align:center;
+    
 }
 
 nav a {
     text-decoration: none;
-    color: #1a73e8;
+    color: #22c55e;
     margin-right: 15px;
-    font-weight: 500;
-    transition: 0.3s ease;
+    font-weight:bold;
+    
 }
 
 nav a:hover {
-    color: #0c47a1;
+    color: #60a5fa;
     text-decoration: underline;
 }
 p {
@@ -55,14 +50,16 @@ img {
     width: 100%;
     max-width: 1000px;
     height:auto;
-    display:block;
     border-radius: 12px;
     margin-top: auto;
 }
 
+email{
+    colour:Orange;
+    font-weight:bold;
+}
 footer {
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid #ddd;
-    font-size: 14px;
-    color: #777;
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: #777;
+}
